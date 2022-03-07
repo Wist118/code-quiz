@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.top {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+section {
+    text-align: center;
+    padding: 0 150px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: black;
+}
+
+.quiz-info {
+    border: solid 5px darkcyan;
+    padding: 0 15px;
+    height: auto;
+}
+
+.quiz-info h2 {
+    text-decoration: underline;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    text-decoration: underline;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#quiz-one button {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+
+

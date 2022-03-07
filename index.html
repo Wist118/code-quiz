@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+</head>
+<body>
+
+    <header class="top">
+        <div>
+        <p class="highscore">HIGHSCORES</p>
+        </div>
+        <div>
+        <h2 id="timer">Timer</h2>
+        <P></P>
+        </div>
+    </header>
+
+    <section>
+        <div>
+        <h1 class="quiz-title">Welcome to Code Quiz!</h1>
+        </div>
+        <div class="quiz-info" id="quiz-init">
+        <h2 class="info-title">About the Quiz</h2>
+        <p class="info-body">This is a very simple quiz comprized with four questions about CSS and HTML. You'll have 30 seconds to complete the quiz. On every incorrect choice selected, you'll lose 2 seconds off of the time. Your score will be whatever the time remaining is and you'll be givin a chance to save the score. Good Luck! </p>
+        <button id="start">
+            Let's Go!
+        </button>
+        <button id="save">
+            Save Score!
+        </button>
+        </div>
+        <section>
+        <div class="quiz-info" id="quiz-one">
+            <h2 id="questions"></h2>
+            <div class="buttons">
+                <button id="a1"></button>
+                <button id="a2"></button>
+                <button id="a3"></button>
+                <button id="a4"></button>
+            </div>
+        </div>
+        <div>
+            <p id="right-wrong"></p>
+        </div>
+        </section>
+    </section>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
