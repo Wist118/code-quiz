@@ -6,7 +6,7 @@ A website that questions users on simple coding questions.
 ## Built With
 * HTML
 * CSS
-*js
+* js
 
 ## Website
 https://wist118.github.io/code-quiz/
